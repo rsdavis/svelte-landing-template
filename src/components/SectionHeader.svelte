@@ -6,8 +6,7 @@
 
 <style>
     .section-header {
-        width: 60%;
-        margin: 0 auto;
+        width: 100%;
         text-align: center;
     }
 
@@ -22,6 +21,13 @@
         font-weight: 300;
         line-height: 1.625;
         font-family: var(--font-sans);
+    }
+
+    @media (min-width: 640px) {
+        .section-header {
+            width: 60%;
+            margin: 0 auto;
+        }
     }
 
 </style>

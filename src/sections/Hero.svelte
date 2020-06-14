@@ -28,7 +28,7 @@
 
         </div>
 
-        <img src='images/heroImg.jpg' alt='People chatting'/>
+        <img src='images/undraw_hero.png' alt='People chatting'/>
 
     </div>
 
@@ -77,7 +77,7 @@
 
         .split {
             display: grid;
-            grid-template-columns: minmax(450px, 1fr) minmax(400px, 1fr);
+            grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
             grid-gap: 5%;
             overflow: hidden;
         }
@@ -88,8 +88,11 @@
         }
 
         img {
-            margin: auto 0 auto 0;
+            display: block;
+            margin: auto auto auto auto;
             overflow: hidden;
+            max-width: 400px;
+            border-radius: 5px;
         }
 
         h1 {

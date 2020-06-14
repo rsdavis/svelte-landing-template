@@ -12,9 +12,6 @@
 
 
 <style>
-    section {
-
-    }
 
     section > div {
         padding-top: 80px;
@@ -27,6 +24,6 @@
     }
 
     .border-top {
-        border-top: 1px solid var(--gray-light);
+        border-top: 1px solid rgb(220,220,220);
     }
 </style>

@@ -19,9 +19,6 @@
 
 <style>
 
-    .card {
-    }
-
     .icon-circle {
         background-color: var(--blue-light);
         width: 64px;

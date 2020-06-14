@@ -87,10 +87,6 @@
         opacity: 100%;
     }
 
-    .active.circle {
-        border: 1px solid var(--gray-dark);
-    }
-
     .buttons {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -122,7 +118,8 @@
     }
 
     img {
-        height: 300px;
+        width: 100%;
+        max-height: 300px;
         margin: 30px auto 0 auto;
     }
 
@@ -133,9 +130,11 @@
         }
 
         img {
-            height: 400px;
+            object-fit: contain;
+            max-height: 400px;
             display: block;
             margin: 40px auto 0 auto;
+            width: auto;
         }
     }
 </style>
