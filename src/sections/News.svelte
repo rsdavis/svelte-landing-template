@@ -5,7 +5,7 @@
     import NewsCard from '../components/NewsCard.svelte'
 </script>
 
-<Section bgColor='#F3F5F8'>
+<Section bgColor='rgb(235,235,235)'>
 
     <SectionHeader>
         <h2 class='title' slot='title'>Product news and updates</h2>

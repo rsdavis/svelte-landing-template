@@ -77,7 +77,7 @@
 
         .split {
             display: grid;
-            grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
+            grid-template-columns: minmax(400px, 2fr) minmax(400px, 1fr);
             grid-gap: 5%;
             overflow: hidden;
         }
@@ -89,7 +89,7 @@
 
         img {
             display: block;
-            margin: auto auto auto auto;
+            margin: auto 0 auto auto;
             overflow: hidden;
             max-width: 400px;
             border-radius: 5px;

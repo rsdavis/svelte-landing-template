@@ -160,11 +160,22 @@
     @media (min-width: 640px) {
         .card {
             min-width: 370px;
-            flex-basis: 30%;
+            flex-basis: 370px;
         }
 
         .feature-text {
             font-size: 18px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .cards {
+            justify-content: space-between;
+            margin: 40px 0 0 0;
+        }
+
+        .card {
+            margin: 0;
         }
     }
 </style>
