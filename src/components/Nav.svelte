@@ -69,6 +69,10 @@
         .link {
             margin-left: 50px;
         }
+
+        .secondary {
+            display: inline-block;
+        }
     }
 
 </style>
