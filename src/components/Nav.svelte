@@ -23,7 +23,7 @@
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 24px;
         flex-grow: 1;
     }
 
@@ -33,7 +33,7 @@
     }
 
     .link {
-        margin-left: 50px;
+        margin-left: 0;
         font-family: var(--font-sans);
         font-weight: 300;
     }
@@ -50,9 +50,25 @@
         background-color: var(--blue-light);
         border-radius: 3px;
         padding: 10px 30px;
+        font-size: 16px;
     }
 
     .btn:hover {
         filter: brightness(120%);
     }
+
+    .secondary {
+        display: none;
+    }
+
+    @media (min-width: 640px) {
+        h1 {
+            font-size: 32px;
+        }
+
+        .link {
+            margin-left: 50px;
+        }
+    }
+
 </style>
