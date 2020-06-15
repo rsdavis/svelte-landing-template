@@ -50,6 +50,7 @@
     }
 
     .feed {
+        margin-top: 40px;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
